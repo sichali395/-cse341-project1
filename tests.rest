@@ -4,6 +4,9 @@ GET http://localhost:3000/
 ### Test GET All Contacts
 GET http://localhost:3000/contacts
 
+### Test GET All Contacts
+GET https://cse341-contacts-api-z7l7.onrender.com/contacts
+
 ### Test GET Single Contact by Path ID
 GET http://localhost:3000/contacts/6a02e1e1429e7a83cdabc114
 
