@@ -1,0 +1,35 @@
+.env
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# VS Code files
+.vscode/
+*.code-workspace
+
+# Other common editors (WebStorm / IntelliJ)
+.idea/
+
+# Testing coverage
+coverage/
+.nyc_output/
+
+# Build directories
+dist/
+build/
+
