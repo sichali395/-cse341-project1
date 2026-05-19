@@ -1,11 +1,11 @@
 const router = require('express').Router();
 
-// Root path
+// 1. Root path route handler
 router.get('/', (req, res) => { 
     res.send('Hello World!'); 
 });
 
-// Link the contacts route file
+// 2. Link the contacts sub-routes
 router.use('/contacts', require('./contacts'));
 
 module.exports = router;

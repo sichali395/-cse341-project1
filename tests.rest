@@ -12,3 +12,30 @@ GET http://localhost:3000/contacts/6a02e1e1429e7a83cdabc114
 
 ### Test GET Single Contact by Query Parameter
 GET http://localhost:3000/contacts?id=6a02e1e1429e7a83cdabc114
+
+### Test POST – Create a new contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+    "firstName": "Lusekelo",
+    "lastName": "Nirenda",
+    "email": "lusekelo.nirenda@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "1990-05-15"
+}
+
+### Test PUT – Update an existing contact
+PUT http://localhost:3000/contacts/6a02e1e1429e7a83cdabc116
+Content-Type: application/json
+
+{
+    "firstName": "Jane",
+    "lastName": "Ghambi",
+    "email": "jane.gHambi@example.com",
+    "favoriteColor": "Green",
+    "birthday": "1985-08-22"
+}
+
+### Test DELETE – Remove a contact
+DELETE http://localhost:3000/contacts/6a0a2424cd2ff60e58607b99
